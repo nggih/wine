@@ -16,6 +16,7 @@ jobs:
           python train.py
           
           echo "METRICS"
+          cat metrics.txt
           # Write your CML report
-          cat results.txt >> report.md
-          cml-send-comment report.md
+          # cat results.txt >> report.md
+          # cml-send-comment report.md
